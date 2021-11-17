@@ -11,8 +11,12 @@ function waveformCI = boot_waveformCI(data,num_boots,sig)
 % waveformCI = [LCI;UCI] array
 
 %  Copyright 2020 Philip Jean-Richard-dit-Bressel, UNSW Sydney
-%  Based on Colin Clifford 2018 bootstrap_CI.m 
 
+%% By Philip Jean-Richard-dit-Bressel, UNSW Sydney, 2020
+% Based on Colin Clifford 2018 bootstrap_CI.m 
+% Feel free to use with citation: Jean-Richard-dit-Bressel et al. (2020). https://doi.org/10.3389/fnmol.2020.00014
+
+%% GNU
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
 % the Free Software Foundation, either version 3 of the License, or
