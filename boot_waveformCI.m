@@ -41,7 +41,6 @@ if num_trials > 2
    data_boots = zeros(num_boots, window);
 
    for b = 1:num_boots
-      % bootstrap data + kernel across all trials ...
       trial_array = ceil((num_trials).*rand(1,num_trials));
       data_boots(b,:) = mean(data(trial_array,:));
    end
