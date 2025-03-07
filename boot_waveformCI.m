@@ -45,7 +45,7 @@ if num_trials > 2
       data_boots(b,:) = mean(data(trial_array,:));
    end
    
-   waveformCI = prctile(data_boots,[sig/2 (1-sig/2)],1);
+   waveformCI = prctile(data_boots,[sig/2 (100-sig/2)],1);
 
 else
    fprintf('Less than 3 trials - bootstrapping skipped\n');
