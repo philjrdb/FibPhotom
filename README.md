@@ -1,6 +1,13 @@
 # FibPhotom
 
-Fibre photometry analysis code. Feel free to use, please formally acknowledge use of code/framework (e.g., via citation).
+Fibre photometry analysis code. Feel free to use. Please acknowledge use of code/framework (e.g., via citation).
+
+**Code:**
+for boostrapped CI (with sqrt(n/(n-1)) expansion): one-sample (_boot_CIexp.m_), between-subject comparisons (_boot_between_diffCIexp.m_), within-subject comparisons (_boot_within_diffCIexp.m_)
+for testing CI against null (0): _sig_consec_thresh.m_ (uses _consec_idx.m_)
+for kernel analysis: _row_kern.m_, _kfitnorm_self.m_, _kfitnorm_compare.m_, _kfitcoeff_compare.m_
+for behaviour timestamping: _first_after.m_
+for plotting: error region (_errorplot3.m_), colour repository (_col_rep.m_)
 
 **Key references:**
 
